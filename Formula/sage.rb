@@ -4,28 +4,24 @@
 class Sage < Formula
   desc "Terminal-native AI coding agent — multi-provider, streaming, tool use"
   homepage "https://github.com/chasey-myagi/sage"
-  version "0.1.4"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chasey-myagi/sage/releases/download/v0.1.4/sage-v0.1.4-darwin-arm64.tar.gz"
-      sha256 "3f40230fc41cd1be9f289e52d2d26339a4f9bb517f29ed0423173acf136f3f30"
+      5ba2e5ddbec69350c856436d8d04a62c835e0466da8e55e6207e885ef76044"
     end
     on_intel do
-      url "https://github.com/chasey-myagi/sage/releases/download/v0.1.4/sage-v0.1.4-darwin-x86_64.tar.gz"
-      sha256 "7bbf6c124b013aa2759c0b1b42b9b6dd3589cb68644a810fee72a1feeb006b7c"
+      a8d8a96ccda6cc02f47645a3d908dc872342fd455c11e05024d7f090f954741"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chasey-myagi/sage/releases/download/v0.1.4/sage-v0.1.4-linux-arm64.tar.gz"
-      sha256 "e4f55ee868cbdf77db671ef3c68afd167e6fa0264db23e9515baaf7235f0e0e8"
+      Nf54a22db1d917aa7f5d24c2cf8cd72c07b26eb722b7e22e7eeb51bc43ae5f5"
     end
     on_intel do
-      url "https://github.com/chasey-myagi/sage/releases/download/v0.1.4/sage-v0.1.4-linux-x86_64.tar.gz"
-      sha256 "0551a560d2e2fa799505fc0b0d1b294b58f457a4578768c990509fd9d867660a"
+      F97c9c5de82339d6776032f2170a0521ee20204fec0a4f2ea1172814c2635ac"
     end
   end
 
